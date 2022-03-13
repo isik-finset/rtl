@@ -18,7 +18,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 // ----------------------------------------------------------------------
 
-export default function Page404() {
+export default function NotFound() {
   return (
     <Page title="404 Page Not Found" sx={{ height: 1 }}>
       <RootStyle>

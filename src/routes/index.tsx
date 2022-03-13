@@ -1,5 +1,5 @@
 // react
-import { Suspense, lazy, ElementType, Component } from "react";
+import { Suspense, lazy, ElementType } from "react";
 // router
 import { useRoutes } from "react-router";
 import { Navigate } from "react-router-dom";
@@ -30,7 +30,7 @@ export default function Router () {
         },
         {
             path: '*',
-            element: <MainLayout/>,
+            element: <MainLayout />,
             children: [
                 { path: '404', element: <NotFound/> },
                 { path: '*', element: <NotFound /> },
