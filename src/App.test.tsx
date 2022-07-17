@@ -16,3 +16,5 @@ test('renders learn react link', async () => {
   const linkElement = await screen.findByRole("button");
   expect(linkElement).toBeInTheDocument();
 });
+
+// july 17, author: isik@finset.io
